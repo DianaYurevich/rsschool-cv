@@ -1,8 +1,10 @@
 # CURRICULUM VITAE
 ![My photo](https://img.cataloxy-by.ru/upload/resume/241/4/30821.jpg)
 ## Name&family name: YUREVICH DIANA
-## Mobile phone: +375297133642
-## E-mail: diana_yurevich@rambler.ru
+## Contacts:
+Mobile phone: +375297133642
+E-mail: diana_yurevich@rambler.ru
+[Link to LinkedIn](https://www.linkedin.com/in/diana-yurevich/) 
 ## My lifes goals in work:
 _I want to learn how to create mobile applications, website._ 
 _For my goal and, first of all, my dream, I am trying to take courses, study literature, which will help me study this field and become a good specialist in this field. At the moment, unfortunately, I have no experience in this field. But I'm not giving up hope and I'm trying to find a job and apply my skills and improve them as well._
