@@ -1,5 +1,6 @@
 # CURRICULUM VITAE
-![My photo](photo.jpg){width=300}
+<img src="photo.jpg" alt="Photo" width="200"/>
+
 ## Name&family name: YUREVICH DIANA
 ## Contacts:
 Mobile phone: +375297133642
