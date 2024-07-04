@@ -1,55 +1,61 @@
-<style>
-    h1{
+    h1 {
         font-size: 30px;
-        font-weght: bold;
+        font-weight: bold;
         color: #000;
         text-align: center;
     }
-    h2{
+
+    h2 {
         font-size: 20px;
-        font-weght: bold;
+        font-weight: bold;
         color: #06114e;
         text-align: center;
     }
-    p{
+
+    p {
         font-size: 18px;
-        font-weght: normal;
+        font-weight: normal;
         color: #0a0a0a;
         text-align: left;
         font-style: oblique;
     }
-    .Quote{
+
+    .Quote {
         font-size: 16px;
-        font-weght: bold;
+        font-weight: bold;
         color: #5c0417;
         text-align: left;
         font-style: italic;
     }
-    .Author{
+
+    .Author {
         font-size: 12px;
-        font-weght: normal;
+        font-weight: normal;
         color: #333;
         text-align: left;
         font-style: normal;
         font-variant: small-caps;
     }
-    .Famouse-people{
+
+    .Famouse-people {
         font-size: 16px;
-        font-weght: bold;
+        font-weight: bold;
         color: #70089c;
         text-align: left;
         font-style: oblique;
     }
-    .Support-of-my-family{
+
+    .Support-of-my-family {
         font-size: 16px;
-        font-weght: bold;
+        font-weight: bold;
         color: #055a21;
         text-align: left;
         font-style: oblique;
     }
-    .My-inner-spirit{
+
+    .My-inner-spirit {
         font-size: 16px;
-        font-weght: bold;
+        font-weight: bold;
         color: #cca806;
         text-align: left;
         font-style: oblique;
