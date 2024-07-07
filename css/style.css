@@ -1,62 +1,306 @@
-    h1 {
-        font-size: 30px;
-        font-weight: bold;
-        color: #000;
-        text-align: center;
-    }
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
 
-    h2 {
-        font-size: 20px;
-        font-weight: bold;
-        color: #06114e;
-        text-align: center;
-    }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
+section {
+	display: block;
+}
+	
+body {
+	line-height: 1.2;
+}
 
-    p {
-        font-size: 18px;
-        font-weight: normal;
-        color: #0a0a0a;
-        text-align: left;
-        font-style: oblique;
-    }
+ol {
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+s
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
 
-    .Quote {
-        font-size: 16px;
-        font-weight: bold;
-        color: #5c0417;
-        text-align: left;
-        font-style: italic;
-    }
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: white;
+}
 
-    .Author {
-        font-size: 12px;
-        font-weight: normal;
-        color: #333;
-        text-align: left;
-        font-style: normal;
-        font-variant: small-caps;
-    }
+* {
+    box-sizing: border-box;
+}
 
-    .Famouse-people {
-        font-size: 16px;
-        font-weight: bold;
-        color: #70089c;
-        text-align: left;
-        font-style: oblique;
-    }
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    .Support-of-my-family {
-        font-size: 16px;
-        font-weight: bold;
-        color: #055a21;
-        text-align: left;
-        font-style: oblique;
-    }
+nav.menu {
+	border-bottom: 1px solid rgba(255,255,255,.75);
+	border-left: none;
+	border-right: none;
+}
 
-    .My-inner-spirit {
-        font-size: 16px;
-        font-weight: bold;
-        color: #cca806;
-        text-align: left;
-        font-style: oblique;
-    }
+nav.menu ul {
+	padding: 0;
+	margin: 0;	
+}
+
+nav.menu li {
+	padding: 0;
+	margin: 0;
+	list-style: none;	
+}
+
+nav.menu a {
+	float: left;
+	font-size: 0.8em;	
+	color: white;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 10px;
+	border-right: 1px solid rgba(255,255,255,.75);
+}
+
+nav.menu li:last-of-type a {
+	border-right: none;	
+}
+
+.nav:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.nav {
+	zoom: 1;	
+}
+
+header {
+    background-color: rgb(183, 181, 103);
+}
+
+header h1 {
+	font-size: 3em;	
+	color: white;
+	font-weight: bold;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 10px;
+}
+
+header h2 {
+	font-size: 2em;	
+	color: white;
+	font-weight: bold;
+	padding-bottom: 0.3em;
+	padding-left: 10px;
+}
+
+nav a:hover {
+	background: coral;
+    box-shadow: inset 0 0 0.3em white;
+}
+
+.contacts h2 {
+    font-size: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.contacts li {
+    font-size: 100%;
+    margin-top: 0.5em;	
+    list-style-type: none;
+}
+
+.content ul li {
+    list-style-type: square;
+    margin-top: 0.3em;
+}
+
+#contacts {
+    float: left;
+    padding-left: 1.4em;
+}
+
+
+.main h2 {
+	font-size: 2em;
+	margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.main h4 {
+	margin-top: 1.5em;	
+}
+
+.contacts {
+    width: 100%;
+    float: right;
+	background-color: rgb(228, 233, 238);
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.main {
+    width: 100%;
+    float: left;
+    padding: 0em 1.5em 0em 1.5em;
+	background-color: rgb(228, 233, 238);
+}
+
+.main p {
+    margin-bottom: 1em;
+}
+
+.main ul, .main ol {
+    padding: 0 1em;
+    margin-bottom: 1em;
+}
+
+footer {
+    clear: both;
+    background-color: rgb(183, 181, 103);
+	margin-top: 15px;
+	font-size: .8em;	
+	padding: 10px 10px 30px 10px;
+}
+
+footer a, footer p  {
+	color: white;	
+}
+
+footer a:hover {
+	color: rgb(179, 47, 47);	
+}
+
+nav.menu ul, header h1, header h2, footer p, footer div, .content {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#image {
+    width: 30%;
+    float: left;
+}
+
+#rss-logo {
+	width: 5em;
+}
+
+#rss-link {
+	height: 5em;
+	text-align: left;
+	padding-top: 1em;
+	vertical-align: middle;
+}
+
+.example {
+	font-size: 1em;
+}
+
+@media screen and (max-width: 1279px) {
+	.main {
+		width: 100%;
+		float: left;
+		border-right: none;
+	}	
+
+	.contacts {
+		width: 100%;
+		padding: 0em 1.5em 0em 1.5em;
+	}	
+
+	#image {
+		width: 30%;
+		float: left;
+	}
+
+	#contacts {
+		float: left;
+		padding-left: 1.4em;
+	}
+
+	section h2 {
+		font-size: 2em;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+
+	.contacts li {
+		font-size: 100%;
+		margin-top: 0.5em;	
+	}
+
+	.menu {
+		display: block;
+	}
+
+	.example {
+		font-size: 1em;
+	}
+}
+		
+@media screen and (max-width: 768px) {
+	.main, .contacts {
+		padding: 0em 0.7em;
+	}
+
+	nav.menu a {
+		padding: 7px;
+	}
+
+	#image {
+		min-width: 212px;
+		float: left;
+	}
+}
+		
+@media screen and (max-width: 479px) {
+	.main, .contacts {
+		padding: 0em 0.4em;
+	}
+
+	header h1 {
+		font-size: 2em;	
+		text-align: center;
+	}
+	
+	header h2, .main h2, section h2 {
+		font-size: 1.5em;	
+		text-align: center;
+	}
+
+	.contacts {
+		text-align: center;
+	}
+
+	#contacts {
+		width: 100%;
+		padding-left: 0em;
+		text-align: left;
+	}
+
+	#image {
+		min-width: 212px;
+		float: none;
+	}
+
+
+	.menu {
+		display: none;
+	}
+
+	.example {
+		font-size: 0.9em;
+	}
+}

@@ -1,5 +1,5 @@
 # CURRICULUM VITAE
-<img src="photo.jpg" alt="Photo" width="200"/>
+<img src="./images/photo.jpg" alt="Photo" width="200"/>
 
 ## Name&family name: YUREVICH DIANA
 ## Contacts:
@@ -19,31 +19,6 @@ _For my goal and, first of all, my dream, I am trying to take courses, study lit
 * **Management tools:** Atlassian Jira,  Atlassian Confluence,  Agile Project Management, Aspro. Agile
     > *I have the skills of manual and automatic testing. In the course of training, I was engaged in testing online stores.I know and understanding SDLC - software development lifecycle and STLC - software testing lifecycle. In process of training, I learned smoke testing, testing of ?Critical path, testing of Extended test, Performance testing, UI Testing, Functional Testing, Regression Testing, Checklist, Test Case, Bug Reports.*
 * **Other programs:** Autodesk 3ds Max,  V-Ray,  AutoCAD, ArchiCAD,  Artlantis Render, Adobe Photoshop, Electronic Form Module.
-
-## Example of my code:
-    from selenium.webdriver.common.by import By
-    from selenium.webdriver.support.wait import WebDriverWait
-    from selenium.webdriver.support import expected_conditions as EC
-    import allure
-    from base.base_class import Base
-    from utilities.logger import Logger
-
-    class Finish_page(Base):
-        def __init__(self, driver):
-            super().__init__(driver)
-            self.driver = driver
-        # Locators
-        # Getters
-        # Actions
-        # Methods
-        def finish(self):
-            with allure.step("Finish page"):
-                Logger.add_start_step(method="finish")
-                self.get_current_url()
-                self.assert_url('https://www.saucedemo.com/checkout-complete.html')
-                self.get_screenshot()
-                Logger.add_end_step(url=self.driver.current_url, method="finish")
-
 
 ## Work experience:
 * **Municipal design and production Unitary Enterprise "Vitebsk Architecture"**
@@ -73,5 +48,26 @@ _For my goal and, first of all, my dream, I am trying to take courses, study lit
 * English — B1 — Intermediate
 * Chinese — A1 — Basic
 
+## Example of my code:
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.wait import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+    import allure
+    from base.base_class import Base
+    from utilities.logger import Logger
 
-
+    class Finish_page(Base):
+        def __init__(self, driver):
+            super().__init__(driver)
+            self.driver = driver
+        # Locators
+        # Getters
+        # Actions
+        # Methods
+        def finish(self):
+            with allure.step("Finish page"):
+                Logger.add_start_step(method="finish")
+                self.get_current_url()
+                self.assert_url('https://www.saucedemo.com/checkout-complete.html')
+                self.get_screenshot()
+                Logger.add_end_step(url=self.driver.current_url, method="finish")
